@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIPIN project</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<link
+    href="https://fonts.googleapis.com/css2?family=Kanit&family=Lato:ital,wght@0,400;1,100&family=Poppins:ital,wght@1,100;1,300&family=REM&family=Ubuntu:wght@700&display=swap"
+    rel="stylesheet">
+<style>
+    body {
+        /* css reset */
+        /* color: white; */
+        font-family: 'Kanit', sans-serif;
+
+        margin: 0px;
+        padding: 0px;
+        /* height: 1000px;   */
+
+        background: url('https://images.pexels.com/photos/1547248/pexels-photo-1547248.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+        /* width: 1000px; */
+        /* height: 4544px; */
+        /* background-repeat: no; */
+    }
+
+    .left img {
+        width: 135px;
+        filter: invert(100%);
+    }
+
+    .left div {
+        text-align: center;
+        background-color: black;
+        line-height: 19PX;
+        font-size: 26PX;
+    }
+
+    .left {
+        color: white;
+        position: absolute;
+        left: 34px;
+        top: 20px;
+        /* border: 2px solid rgb(255, 4, 4); */
+        display: inline-block;
+    }
+
+    .center {
+        display: block;
+        width: 36%;
+        margin: 20px auto;
+        /* border: 2px solid blue; */
+        /* display: inline-block; */
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        /* border: 2px solid green; */
+        display: inline-block;
+
+    }
+
+    .navbar {
+        display: inline-block;
+
+    }
+
+    .navbar li {
+        color: white;
+        display: inline-block;
+        font-size: 25px;
+
+    }
+
+    .navbar li a {
+        color: white;
+        padding: 34px 23px;
+        text-decoration: none;
+
+    }
+
+    .navbar li a:hover,
+    .navbar li a.action {
+        text-decoration: underline;
+        color: cadetblue;
+    }
+
+    .btn {
+        font-family: 'Kanit', sans-serif;
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid gray;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: blueviolet;
+    }
+
+    .container {
+        border: 2px solid rgb(243, 243, 243);
+        margin: 106px 33px;
+        padding: 5px;
+        width: 30%;
+        border-radius: 28px;
+    }
+
+    .form-group input {
+        font-family: 'Kanit', sans-serif;
+        text-align: center;
+        display: block;
+        width: 508px;
+        padding: 1px;
+        border: 2px solid white;
+        margin: 11px auto;
+        font-size: 25px;
+        border-radius: 8px;
+    }
+
+    .container h1 {
+        text-align: center;
+        font-family: 'Kanit', sans-serif;
+    }
+
+    .container button {
+        display: block;
+        width: 518px;
+        margin: 10px auto;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/gym-logo-template-design-04d583c8ca3558ea0ea21763a57e7ba6_screen.jpg?ts=1604496976"
+                alt="">
+            <div>Vipin Fitness</div>
+        </div>
+        <!-- center box for navbar -->
+        <div class="center">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">about as</a></li>
+                <li><a href="#">fitness calculater</a></li>
+                <li><a href="#">contact as</a></li>
+            </ul>
+        </div>
+        <!-- right box for button -->
+        <div class="right">
+            <button class="btn">call us now</button>
+            <button class="btn">email us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best Gym in up</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="enter your localoity">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="enter your Phone Number">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="enter your Email ID">
+            </div>
+            <button class="btn">submit</button>
+        </form>
+    </div>
+</body>
+
+</html>

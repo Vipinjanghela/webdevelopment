@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox in Css</title>
+    <style>
+.container{
+    height: 344px;
+    width: 100%;
+    border: 2px solid black;
+    /* inisilize the container in a flex box */
+    display: flex;
+    /* flex propety of flex container */
+    /* default value of flex direction inrow */
+    
+    /* (default value of diection in row) */
+    /* flex-direction: row; */
+    /* flex-wrap: wrap-reverse; */
+    /* flex-flow: row-reverse wrap; */
+    /* flex-direction: column; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+     flex-wrap:wrap ; 
+    /* justify-content: center;  */
+    /* justify-content: space-between; */
+   /* justify-content: space-evenly; */
+    /* justify-content: space-around;  */
+   align-items: center;
+
+   align-items: start;
+   align-items: end;
+   align-items: stretch;
+}
+.iteam{
+    height: 104px;
+    width: 150px;
+    border: 2px solid red;
+    background-color: rgb(52, 71, 247);
+     margin: 10px;
+     padding: 3px;
+}
+    </style>
+</head>
+<body>
+    <h1>This is flexbox tutorisal</h1>
+    <div class="container">
+        <div class="iteam" id="iteam-1">first box</div>
+        <div class="iteam" id="iteam-2">seconde box</div>
+        <div class="iteam" id="iteam-3">thired box</div>
+        <div class="iteam" id="iteam-4">fourth box</div>
+        <div class="iteam" id="iteam-5">fiveth box</div>
+        <div class="iteam" id="iteam-6">sixth box</div>
+    </div>
+</body>
+</html>

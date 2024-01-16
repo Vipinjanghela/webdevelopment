@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>before and after pseudo selector</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kanit&family=Lato:ital,wght@0,400;1,100&family=Oswald:wght@700&family=Poppins:ital,wght@1,100;1,300&family=REM&family=Ubuntu:wght@700&display=swap"
+        rel="stylesheet">
+    <style>
+        section {
+            height: 344px;
+            margin: 3px 23px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Kanit', sans-serif;
+            /* border: 2px solid red; */
+        }
+
+        /* section::before{
+    content: "this is content";
+} */
+        body {
+
+            margin: 0px;
+            padding: 0px;
+            background-color: black;
+            color: white;
+            background: url('https://images.unsplash.com/photo-1519068737630-e5db30e12e42?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80') no-repeat  center center/cover;
+        }
+
+        .navication {
+            display: flex;
+            font-size: 20px;
+            font-family: 'Kanit', sans-serif;
+        }
+
+        li {
+            list-style: none;
+            padding: 20px 23px;
+        }
+
+        h1 {
+            font-size: 4rem;
+        }
+
+        p {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="navication">
+                <li class="item1">Home</li>
+                <li class="item2">About</li>
+                <li class="item3">contect</li>
+                 <li class="item4">submit</li> 
+                <!-- <li class="item4">email</li> -->
+            </ul>
+        </nav>
+
+    </header>
+    <section>
+        <h1>Welcome to Coding world</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid magni dicta omnis architecto deserunt
+            nam suscipit illo praesentium, placeat eius nulla at ad, quis maxime necessitatibus ut distinctio,
+            tenetur fuga laboriosam maiores. Id, facilis.</p>
+    </section>
+     <!-- <hr>  -->
+
+</body>
+
+</html>

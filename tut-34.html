@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box shadow or text shadow</title>
+    <style>
+        .container{
+            display: flex;
+            
+        }
+        .card{
+            margin: 25px 12px;
+            padding: 24px 12px;
+            background-color: blanchedalmond;
+            /* box-shadow: 2px 4px rgb(153, 0, 255); */
+            /* box-shadow: -2px  -4px rgb(153, 0, 255); */
+            /* box-shadow: 2px 4px 8px rgb(153, 0, 255); */
+            /* box-shadow: inset 2px 4px greenyellow; */
+            box-shadow: 2px 4px greenyellow ,2px 4px green;
+;
+        }
+       .card  h2{
+            /* text-shadow: 0.5px 0.7px red; */
+            text-shadow: 2px  2px 1px whitesmoke;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card" id="card1">
+            <h2>card1</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. At, recusandae eaque officiis quos repudiandae
+                aspernatur omnis perferendis, illum quam temporibus saepe laborum mollitia dolorem illo autem id labore,
+                nobis quae! Doloribus, aspernatur?</p>
+        </div>
+        <div class="card" id="card2">
+            <h2>card2</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. At, recusandae eaque officiis quos repudiandae
+                aspernatur omnis perferendis, illum quam temporibus saepe laborum mollitia dolorem illo autem id labore,
+                nobis quae! Doloribus, aspernatur?</p>
+        </div>
+        <div class="card" id="card3">
+            <h2>card3</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. At, recusandae eaque officiis quos repudiandae
+                aspernatur omnis perferendis, illum quam temporibus saepe laborum mollitia dolorem illo autem id labore,
+                nobis quae! Doloribus, aspernatur?</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
